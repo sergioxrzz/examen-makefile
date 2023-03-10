@@ -1,0 +1,20 @@
+make install
+>>> Descarrega els repositoris indicats al fitxer makefile, i els instal·la a un directori anomenat "Python Games", per a posteriorment comprimir el joc indicat (default: MineSweeper) i el mou a usr/local/bin
+---
+make update
+>>> Actualitza els paquets de "Python-Games"
+---
+make uninstall
+>>> Elimina el joc del directori "usr/local/bin" || Desinstal·la el joc
+---
+make clean
+>>> Elimina el direcotri "Python-Games"
+---
+make delete
+>>> Equivalent a un "make uninstall && make clean"
+---
+make man
+>>> Mostra les instruccions
+----------------------------------------------------------------------------------
+
+make -s [opc]		Indica que no vol que es mostren els comandaments executats
